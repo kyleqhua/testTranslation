@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import './i18n';
+import Gator from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Gator name={'kyle'} age={10} home={'berk'} />
   </React.StrictMode>,
   document.getElementById('root')
 );
